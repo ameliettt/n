@@ -1,31 +1,35 @@
 body {
   margin: 0;
-  background: #131118;
-  color: white;
+  background: #111;
+  color: #fff;
   font-family: sans-serif;
   overflow-x: hidden;
 }
 
 .title {
-  font-size: 8vw;
+  position: fixed;
+  top: 50vh;
+  width: 100%;
   text-align: center;
-  margin: 100px 0;
+  font-size: 8vw;
   color: white;
-  text-shadow: 0 0 20px #f0f;
+  text-shadow: 0 0 30px #ff88ff;
+  z-index: 10;
+  pointer-events: none;
 }
 
-.images {
-  width: 100%;
-  padding: 100vh 0;
+.gallery {
+  padding-top: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 30vh;
   align-items: center;
-  gap: 100px;
 }
 
-.images img {
-  width: 300px;
+.gallery img {
+  width: 60vw;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
 }
