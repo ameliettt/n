@@ -18,7 +18,7 @@ body {
   pointer-events: none;
 }
 
-.gallery {
+.images {
   padding-top: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 
-.gallery img {
+.images img {
   width: 60vw;
   height: auto;
   object-fit: cover;
